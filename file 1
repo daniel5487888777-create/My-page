@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的個人介紹</title>
+  <style>
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      display: inline-block;
+      padding: 30px;
+      margin-top: 30px;
+      width: 300px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>嗨，我是睿煜 👋</h1>
+    <p>這是我使用 GitHub Pages 建立的第一個個人網站。</p>
+  </header>
+  <div class="card">
+    <h2>關於我</h2>
+    <p>我喜歡學習新技術，也在探索程式設計與數學的世界。</p>
+  </div>
+  <footer>
+    <p>© 2025 睿煜 Lin</p>
+  </footer>
+</body>
+</html>
